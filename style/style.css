@@ -1,0 +1,1931 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+
+}
+header h1{
+    width: 40px;
+    height: 46px;
+    margin-top: 12px;
+    background-image: url(../img/logo.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    float: left;
+}
+h1 a{
+    display: block;
+}
+h2{
+  font-size: 58px;
+}
+
+    /* header */
+.indexheader{
+    background-color: #000000;
+}
+.indexul{
+    color: #FFFFFF;
+}
+header{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+}
+.burger-menu{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/menu.png);
+    background-position: center;
+    display: none;
+}
+.burger-menu:hover{
+    cursor: pointer;
+}
+.x-div{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/cancel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    display: none;
+}
+header ul{
+    width: 458px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 2px solid #c6b6b6;  
+}
+header ul a{ 
+    padding: 18px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+header ul a:hover{
+    border-bottom: 3px solid #F85B29;
+}
+.navbar-right{
+    width: 50%;
+    height: 56px;
+    margin-top: 4px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    margin-left: 20%;
+    position: relative;
+}
+.navtelicon{
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/Assistance\ Icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navcontactinfo{
+    width: 264px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    align-content:stretch;
+    margin-left: 0;
+    padding-left: 6px;
+}
+.nav-p1{
+    font-weight:lighter;
+    color: rgb(143, 152, 159);
+    font-size: 14px;
+    padding-bottom: 0px;
+}
+.nav-p2{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+    /* index.html  */
+.homefirstonecoverphoto{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000;
+    background-image: url(../img/lasthomecover.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+.aboutuscoverphoto{
+    background-image: url(../img/aboutlambo2.webp);
+}
+.servicesfirstonecoverphoto{
+    background-image: url(../img/servicescenter.webp);
+}
+.contactcoverphotomain{
+    background-image: url(../img/lastoflastcontact.webp);
+}
+.ratingparent{
+    width: 230px;
+    height: 80px;
+    position: absolute;
+    bottom: 42px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #ffffff77;
+    border-radius: 44px;   
+}
+.rating{
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #ffffff;
+    border-radius: 44px;
+}
+.parent2{
+    top: 72%;
+    left: 78%;
+}
+.rating2{
+    top: 5px;
+    left: 5px;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    margin-left: 6px;
+    margin-right: 10px;
+    background-color: #5CBA99;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.button{
+    width: 140px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #FF6433;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.firstbutton{
+    margin-top: 4px;
+}
+.button:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
+.openinfo{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-content: space-around;
+    margin-top: 28px;
+}
+.clockicon{
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/clockicon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+    
+}
+.dateandtime{
+    width: 90%;
+    height: 80px;
+    margin-left: 4px;
+}
+.info-div {
+    font-size: 16px;
+    margin-left: 10px;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.quote{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: #E2E6E9;
+    font-size: 40px;
+    line-height: 0.9em;
+    background-image: url(../img/bmwcover.webp);
+}
+.quoteleftside{
+    width: 26%;
+    height: 480px;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+.qouterightside{
+    width: 32%;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 2%;
+}
+.qoutoservice{
+    margin-top: 30px;
+    width: 84%;
+    height: 360px;
+}
+.service{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.iconspace{
+    width: 50px;
+    height: 100%;
+}
+.iconspace1{
+    background-image: url(../img/service1icon.png);
+    background-repeat: no-repeat;
+}
+.iconspace2{
+    background-image: url(../img/service2icon.png);
+    background-repeat: no-repeat;
+}
+.iconspace3{
+    background-image: url(../img/service3icon.png);
+    background-repeat: no-repeat;
+}
+.serviceinfo{
+    width: 86%;
+    height: 100%;
+    color: #D9D9D9;
+}
+.serviceheader{
+    height: 36px;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+.servicetext{
+    width: 100%;
+    height: 60px;
+    margin-left: 0px;
+    color: #888888;
+    font-size: 11px;
+    line-height: 1.1em;
+    padding-top: 10px;
+}
+input{
+    width: 100%;
+    height: 60px;
+    border: none;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    background: #ffffff63;
+}
+.qoutedemaintext{
+    color: #D9D9D9;
+}
+.qoutedemaintextright{
+    margin-bottom: 16px;
+    color: #D9D9D9;
+}
+.offersection{
+    width: 100%;
+    height: 800px;
+    background-color: #1E1B1B;
+    text-align: center;
+    padding-top: 80px;
+}
+.offersection p{
+    font-size: 24px;
+    padding: 10px;
+    color: #D9D9D9;
+}
+.offermaintext{
+    width: 700px;
+    height: 152px;
+    line-height: 1em;
+    margin: 1px auto;
+    color: #D9D9D9;
+}
+.offercontainer{
+    width: 70%;
+    height: 420px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.boxforofficecontainer{
+    width: 248px;
+    height: 206px;
+    background-color: #D9D9D9;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.officecontainericon{
+    width: 50px;
+    height: 50px; 
+}
+.officeiconcontent{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 130px;
+    left: 20%;
+    font-size: 14px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.officecontainericon1{
+    background-image: url(../img/diagnosticsIcon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.officecontainericon2{
+    background-image: url(../img/enginerepairIcon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.officecontainericon3{
+    background-image: url(../img/wheelicon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.officecontainericon4{
+    background-image: url(../img/oilIcon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.officecontainericon5{
+    background-image: url(../img/bodyIcon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.officecontainericon6{
+    background-image: url(../img/batteryIcon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.officecontainericon7{
+    background-image: url(../img/insuranceIcon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.officecontainericon8{
+    background-image: url(../img/customIcon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.boxforofficecontainer:hover,.boxforofficecontainer:hover .officeiconcontent{
+   background-color: #FF6433;
+   cursor: pointer;
+   color: #ffffff;
+}
+.boxforofficecontainer:hover .officecontainericon1{
+    background-image: url(../img/diagnosticswhite.png);
+}
+.boxforofficecontainer:hover .officecontainericon2{
+    background-image: url(../img/enginewhite.png);
+}
+.boxforofficecontainer:hover .officecontainericon3{
+    background-image: url(../img/wheelwhite.png);
+}
+.boxforofficecontainer:hover .officecontainericon4{
+    background-image: url(../img/oilwhite.png);
+}
+.boxforofficecontainer:hover .officecontainericon5{
+    background-image: url(../img/bodywhite.png);
+}
+.boxforofficecontainer:hover .officecontainericon6{
+    background-image: url(../img/batterywhite.png);
+}
+.boxforofficecontainer:hover .officecontainericon7{
+    background-image: url(../img/Insurancewhite.png);
+}
+.boxforofficecontainer:hover .officecontainericon8{
+    background-image: url(../img/customwhite.png);
+}
+a{
+    color: #000000;
+}
+.phototopic{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    position: relative;
+}
+.phototopicphoto{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bmwphototopic.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.phototopicinfo{
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    left: 16%;
+    background-color: #e2e6e955;
+}
+.topicmaintext{
+    width: 80%;
+    height: 150px;
+    margin: 60px auto;
+    font-size: 50px;
+    line-height: 1em;
+    color: #ffffff;
+}
+.blackbutton{
+    background-color: #000000;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.experiencetopic{
+    width: 100%;
+    height: 190px;
+    background-color: #f2f2f200;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.experiencetopicdiv{
+    width: 80%;
+    height: 190px;
+    background-color: #f2f2f200;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.experiencebox{
+    width: 134px;
+    height: 114px;
+    text-align: center;
+}
+.exptext{
+    color: #661CE7;
+}
+.expnumber{
+    font-size: 40px;
+    color: #661CE7;
+}
+.brandstopic{
+    width: 100%;
+    height: 450px;
+    background-color: #FAFAFA;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 100px; 
+}
+.brandlogodiv{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.brandlogo{
+    width: 220px;
+    height: 98px;
+}
+.brandlogo1{
+    background-image: url(../img/logo1.png);
+    background-position: center;
+}
+.brandlogo2{
+    background-image: url(../img/logo2.png);
+    background-position: center;
+}
+.brandlogo3{
+    background-image: url(../img/logo3.png);
+    background-position: center;
+}
+.brandlogo4{
+    background-image: url(../img/logo4.png);
+    background-position: center;
+}
+.brandlogo5{
+    background-image: url(../img/logo5.png);
+    background-position: center;
+}
+.brandlogo6{
+    background-image: url(../img/logo2.png);
+    background-position: center;
+}
+.brandlogo7{
+    background-image: url(../img/logo4.png);
+    background-position: center;
+}
+.brandlogo8{
+    background-image: url(../img/logo1.png);
+    background-position: center;
+}
+.brandlogo9{
+    background-image: url(../img/logo5.png);
+    background-position: center;
+}.brandlogo10{
+    background-image: url(../img/logo3.png);
+    background-position: center;
+}
+/* slider */
+.commentslider{
+    width: 100%;
+    height: 650px;
+    background-image: url(../img/commentback.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.commentsliderheader{
+    width: 50%;
+    height: 200px;
+    font-size: 48px;
+    padding-top: 50px;
+    margin: 10px auto;
+    color: #F85B29;
+    background-color: #88888873;
+}
+.slider{
+    margin-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
+    z-index: 0;
+
+}
+.owl-carousel .owl-stage-outer{
+    height: 300px;
+}
+.item{
+    height: 296px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    padding: 30px;
+}
+.item:hover{
+    cursor: pointer;
+}
+.commentator{
+    width: 80%;
+    height: 64px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.author{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.author1{
+    background-image: url(../img/author1.jpg);
+}
+.author2{
+    background-image: url(../img/author2.jpg);
+}
+.authorinfo{
+    width: 80%;
+    height: 64px;
+    margin-left: 10px;
+    text-align: left;
+}
+article{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 22px;
+}
+.authorcity{
+    color: #979494;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 20px;
+
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    width: 30px;
+    height: 4px;
+    background-color: #FF6433;
+    
+}
+.owl-theme .owl-dots .owl-dot span{
+    width: 30px;
+    height: 4px;
+    background-color: #ffffff;
+}
+.owl-theme .owl-nav{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+    margin-top: 40px;
+}
+.owl-carousel{
+    z-index: 0;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    width: 42px;
+    height: 42px;
+    background-color: #ffffff;
+    color: #ffffff00;
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background-image: url(../img/Arrowprev.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background-image: url(../img/arrownext.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-image: url(../img/Arrownextwhite.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background-image: url(../img/Arrowprevwhite.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: #000000;
+    color: #ffffff00;
+    width: 54px;
+    height: 54px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 580px;
+    background-color: #1E1B1B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerleft{
+    width: 30%;
+    height: 240px;
+    margin: 0;
+}
+.footerright{
+    width: 40%;
+    height: 240px;
+    font-size: 29px;
+}
+.social{
+    width: 50%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.facebook{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/facebook.png);
+}
+.twitter{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/twitter.png)
+}
+.instagram{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/instagram.png);
+}
+.linkedin{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/linkedin.png);
+}
+.footersize{
+    width: 520px;
+    height: 80px;
+    align-items: center;
+    align-content:stretch;
+    margin-left: 0;
+    font-size: 38px;
+    color: #ffffff;
+    padding-left: 6px;
+}
+.blackbackground{
+    background-color: #000000;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin-bottom: -58px;
+}
+.nav-p2footer{
+    font-size: 28px;
+    margin: 0;
+}
+.navbarfooter{
+    width: 584px;
+    height: 66px;
+    margin-top: 4px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    margin-left: 20%;
+}
+footer ul{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    
+}
+footer ul a{ 
+    padding: 18px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Mukta', sans-serif; 
+    border-bottom: 4px solid #F85B29; 
+}
+footer ul a:hover{
+    border-bottom: 4px solid #979494;
+}
+.footer p{
+    width: 300px;
+    height: 40px;
+    font-family: 'Mukta', sans-serif;  
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+footer .lastp::after{
+    content: "@ Copyright Finsweet 2021";
+    width: 300px;
+    height: 40px;
+    color: #979494;
+    display: inline;
+    margin-left: 118px;
+    margin-top: 20px;
+}
+/* services */
+.servicesfirsttopic{
+   width: 76%;
+   height: 450px;
+   margin: 30px auto;
+   display: flex;
+   position: relative;
+}
+.servicesfirsttopicphoto{
+    width: 46%;
+    height: 100%;
+    
+}
+.ourservices{
+    width: 54%;
+    height: 100%;
+    background-color: #1e1b1b90;
+    text-align: center;
+    border-radius: 10px;
+}
+.h2white{
+    color: #ffffff;
+}
+.h2black{
+    color: #FFFFFF;
+}
+.servicesp{
+    width: 80%;
+    color: #ffffff;
+    margin: 30px auto;
+    font-size: 20px;
+}
+.button2{
+    margin-left: 60px;
+}
+.quoteleftside-services{
+    width: 26%;
+    background-color: #ffffff83;
+    height: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+.servicessecondtopicphoto{
+    margin: 22px auto;
+    width: 90%;
+    height: 40%;
+    background-image: url(../img/services2photo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+.quoteleftside-servicestext{
+    width: 90%;
+    font-size: 16px;
+    margin: 20px auto;
+}
+.quoterightside-services{
+    width: 28%;
+    height: 80%;
+    background-color: #e2e6e90d;
+    margin-top: 50px;
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;  
+}
+.quoterightside-services a{
+    background-color: #ffffff2b;
+    width: 48.5%;
+    height: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.quoterightside-services a > .quoterightsidebox{
+    width: 100%;
+    height: 100%;
+    color: #000000;
+}
+.quoterightsidebox{
+    background-color: #ffffff83;
+    width: 48.5%;
+    height: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.quoterightsideicon{
+    width: 40px;
+    height: 40px;
+}
+.quoterightsidecontent{
+    position: absolute;
+    top: 100px;
+    font-size: 14px;
+}
+.quoterightsideicon1{
+    background-image: url(../img/diagnosticsIcon\ copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.quoterightsideicon4{
+    background-image: url(../img/batteryIcon\ copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.quoterightsideicon6{
+    background-image: url(../img/enginerepairIcon\ copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.quoterightsidebox:hover{
+    background-color: #FF6433;
+    cursor: pointer;
+}
+.quoterightsidebox:hover .quoterightsidecontent{
+    color: #ffffff;
+}
+.servicesthirdtopic{
+    width: 56%;
+    height: 420px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.servicesthirdtopicmain{
+    width: 52%;
+    height: 100%;
+}
+.servicesthirdtopicmain-header{
+    width: 96%;
+    font-size: 38px;
+    margin: 2px auto;
+    line-height: 1em;
+}
+.chekmarks{
+    width: 90%;
+    height: 200px;
+    margin-left: 3%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.chekmark{
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/Checkmark.png);
+}
+.chekmarkdescription{
+    width: 80%;
+    height: 48px;
+    font-size: 14px;
+}
+.servicethirdtopicphototside{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.carphoto{
+    width: 48%;
+    height: 100%;
+    border-radius: 5px;
+}
+.carphoto1{
+    background-image: url(../img/carphoto-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carphoto2{
+    background-image: url(../img/carphoto-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carphoto3{
+    background-image: url(../img/carphoto-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carphoto4{
+    background-image: url(../img/carphoto-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.button3{
+    margin-left: 20px;
+    margin-top: 44px;
+}
+.aboutussecondtopic{
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+.aboutussecondtopicsecondheader{
+    width: 96%;
+    margin: 2px auto;
+    color: #939191;
+}
+.aboutusfirsttopicphoto{
+    width: 46%;
+    height: 100%;
+}
+.aboutustopicsecond{
+    width: 36%;
+    height: 100%;
+}
+.aboutusphotoside{
+    width: 64%;
+    height: 100%;
+}
+.carphoto-5{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/carphoto5.webp);
+}
+.aboutussteps{
+    width: 96%;
+    height: 450px;
+    margin: 2px auto;
+}
+.aboutusstepsfirst{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    margin-bottom: 4px;
+}
+.aboutuscheckmark1{
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/aboutusCircle\ 1.png);
+}
+.aboutuscheckmark2{
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/aboutuscircle2.png);
+}
+.aboutuscheckmark3{
+    width: 72px;
+    height: 72px;
+    background-image: url(../img/aboutuscircle3.png);
+}
+.aboutusstepsfirstheader{
+    width: 70%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.aboutusstepdescription{
+    width: 90%;
+    height: 62px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-left: 32px;
+    color: #939191;
+    margin-top: 10px;
+    border-left: 2px dotted #FF6433;
+}
+.coloredsection{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    background-image: url(../img/lambodesert.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.coloreddiv{
+    width: 30%;
+    height: 70%;
+    display: flex;
+}
+.backgroundcolordiv{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff96;
+    border-radius: 10px;
+}
+.coloreddivtopic{
+    width: 60%;
+    height: 150px;
+    color: #000000;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.coloreddivparagraph{
+    width: 60%;
+    height: 150px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    font-size: 16px;
+}
+.valuedcustomers{
+    width: 100%;
+    height: 820px;
+    background-color: #F2F2F2;
+    background-image: url(../img/lambo2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.valuedcustomersheader{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 58px;
+    line-height: 1em;
+    color: #FF768A;
+    background-color: #88888873;
+}
+.valuedcustomersheaderteam{
+   color: #000000;
+   background-color: #88888800;
+}
+.featuresblock{
+    width: 74%;
+    height: 424px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.featuresbox{
+    width: 33.2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff96;
+}
+.feature{
+    width: 70%;
+    height: 68%;
+}
+.featureicondiv{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.featureicon1{
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/featureicon1.png);
+    background-repeat: no-repeat;
+}
+.featureicon2{
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/featureicon2.png);
+    background-repeat: no-repeat;
+}
+.featureicon3{
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/featureicon3.png);
+    background-repeat: no-repeat;
+}
+.servicespblack{
+    color: #ff7676;
+    line-height: 1em;
+    font-size: 16px;
+    margin-top: 0px;
+    width: 90%;
+    text-align: center;
+}
+.aboutusstepsfirstheader-forfeatures{
+    font-size: 22px;
+    width: 90%;
+    height: 72px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.team{
+    width: 74%;
+    height: 1050px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.teammatesdiv{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.teammatesbox{
+    width: 30%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.teammatesbox1{
+    background-image: url(../img/team1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.teammatesbox2{
+    background-image: url(../img/team2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.teammatesbox3{
+    background-image: url(../img/team3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.teammatesbox4{
+    background-image: url(../img/team4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.teammatesbox5{
+    background-image: url(../img/team5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.teammatesbox6{
+    background-image: url(../img/team6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.name{
+    width: 100%;
+    height: 20%;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 12px;
+}
+/* contact */
+
+.contactfirsttopic{
+    height: 500px;
+}
+.contactfirsttopicheader{
+    width: 100%;
+    height: 100px;
+}
+.h2white{
+    width: 90%;
+    height: 100px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.h2forfirst{
+    line-height: 0.8em;
+    height: 190px;
+    text-align: left;
+    padding: 20px;
+}
+.ourserviceswhite{
+    width: 50%;
+    background-color: #696a6990;
+    line-height: 3em;
+    text-align: left;
+    border-radius: 10px;
+}
+input.contactinput{
+    background: #ffffff00;
+    margin-top: 6px;
+    border-bottom: 2px solid #F85B29;
+    padding-left: 16px;
+}
+input::placeholder { 
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+.footerright-forcontactright{
+    margin: 150px auto;
+}
+.nav-p2footer-forcontact{
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.footerright-forcontactright{
+    background-color: #696a6990;
+    color: #F85B29;
+    width: 46%;
+    height: 264px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nav-p1contact{
+    color: #F85B29;
+    font-size: 16px;
+}
+.photocover{
+    width: 100%;
+    height: 440px;
+    background-image: url(../img/contactpage.png);
+}
+.emptydiv{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+}
+#gmap_canvas{
+    width: 76%;
+   position: absolute;
+   left: 170px;
+}
+.contactslastdiv{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.h2black{
+    color: #FFFFFF;
+}
+.auto{
+    margin-left: 16%;
+}
+.autodiagnosticsmaindiv{
+    width: 64%;
+    height: 1200px;
+    margin-left: 16%;
+    display: flex;
+    justify-content: space-between;
+}
+.autodiagnosticsmaindiv-leftside{
+    height: 80%;
+    width: 300px;
+}
+.autodiagnostic{
+    height: 58%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boxautodiagnostic{
+    width: 80%;
+    height: 130px;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.otherservices{
+    font-size: 28px;
+    margin-left: 2%;
+}
+.autotext{
+    top: 62%;
+}
+.autodiagnosticsmaindiv-rightside{
+    width: 66%;
+    height: 100%;
+}
+.autodiagnosticsphoto{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/autodiagnosticphoto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.autodiagnosticsheader{
+    width: 100%;
+    height: 120px;
+    font-size: 38px;
+    line-height: 1em;
+    margin-bottom: 30px;
+}
+.loremtext{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+    line-height: 1em;
+    color: #939191;
+}
+.lastlorem{
+    border-left: 2px solid #888888;
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+/* chatbox */
+.sendmessagebutton{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    bottom: 26px;
+    right: 20px;
+}
+.chatboxbackground{
+    width: 100%;
+    height: 64px;
+    background-image: url(../img/comment.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+}
+.sendmessagebutton:hover, .send:hover{
+    color: #939191;
+    cursor: pointer;
+}
+.clearthis{
+    font-size: 10px;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+}
+.messagebox{
+    width: 300px;
+    border: 1px solid red;
+    position: fixed;
+    bottom: 78px;
+    right: 20px;
+    background-color: #03030398;
+    display: none;
+    z-index: 9;
+    border-radius: 10px;
+}
+.messageboxheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: #FFFFFF;
+}
+.close{
+    padding: 5px;
+    cursor: pointer;
+}
+.messageboxmain{
+    padding: 10px;
+}
+.messageboxmain input, .messageboxmain textarea{
+    width: 100%;
+    resize: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 14px;
+    outline: none;
+    background-color: #03030398;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.send{
+    width: 100%;
+    padding: 14px;
+    background-color: #1d1c1b;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+textarea{
+    border: none;
+}
+textarea::-webkit-input-placeholder {
+    color: #fff;
+    }
+
+@media only screen and (max-width: 1024px){
+    .homefirstone{
+        margin-left: 248px;
+    }
+    .h2forfirst{
+        font-size: 36px;
+    }
+    .parent2{
+        top: 40%;
+        left: 72%;
+    }
+    .navbar-right{
+        margin-left: 6%;
+        width: 80%;
+    }
+    .quoteleftside{
+        margin-left: 268px;
+    }
+    .offersection{
+        height:700px;
+        padding-top: 50px;
+    }
+    .offercontainer{
+        height: 368px;
+    }
+    .boxforofficecontainer{
+        width: 174px;
+        height: 180px;
+    }
+    .officeiconcontent{
+        position: absolute;
+        left: 8%;
+        top: 116px;
+    }
+    .brandstopic{
+        height: 400px;
+        padding-top: 50px;
+    }
+    .brandlogodiv{
+        width:90%;
+    }
+    .brandlogo{
+        width: 184px;
+    }
+    .commentsliderheader{
+        width:70%;
+    }
+    .navbarfooter{
+        width:462px;
+    }
+    .aboutusstepsfirstheader{
+        height:56px;
+        font-size: 20px;
+    }
+    .aboutusstepdescription{
+        line-height: 1em;
+    }
+    .servicesthirdtopicmain-header {
+        font-size: 34px;
+    }
+    .coloreddivtopic{
+        width:70%;
+        margin-top: 70px;
+    }
+    .coloreddivparagraph{
+        width:70%;
+    }
+    .valuedcustomersheader{
+        width:60%;
+    }
+    .featuresblock{
+        width: 90%;
+    }
+    .quoteleftside-services{
+        width:30%;
+    }
+    .quoteleftside-servicestext{
+        font-size:14px;
+        width: 90%;
+        line-height: 2em;
+    }
+    .quoteleftside-servicestext2{
+        line-height: 1em;
+    }
+    h2{
+        font-size:46px;
+    }
+    .servicesfirsttopic{
+        width: 90%;
+        height: 100%;
+    }
+    .ourserviceswhite{
+        width:45%;
+    }
+    .footerright-forcontactright{
+        width:55%;
+    }
+    .loremtext{
+        height:158px;
+    }
+}
+@media only screen and (max-width: 390px){
+    html{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+    #nav{
+        height: 140px;
+    }
+    .burger-menu{
+        display: block;
+        margin-left: 2px;
+    }
+    .navbar-right{
+        margin-left: 0;
+        height: 140px;
+        width: 300px;
+        display: none;
+    }
+    .x-div{
+        display: block;
+    }
+    header{
+        height: 144px;
+        margin-bottom: 0;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+    header ul{
+        height: 140px;
+        width: 166px;
+        padding: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: center;
+        border: none;
+    }
+    header ul a{
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    .navcontactinfo{
+        height: 130px;
+        width: 130px;
+        display: block;
+        margin-top: 50px;
+    }
+    .navtelicon{
+        margin-left: 30px;
+    }
+    .nav-p1{
+        color: #FFFFFF;
+    }
+    .nav-p2{
+        color: #FFFFFF;
+    }
+    .homefirstone{
+        width: 100%;
+        display: block;
+        height: 800px;
+        margin: 10px auto;
+    }
+    .homefirstonesection{
+        width: 84%;
+        height: 260px;
+        margin: 0px auto;
+    }
+    .homefirstonesection2{
+        height: 500px;
+        width: 96%;
+        margin: 0px auto;
+    }
+    .homefirstonetext{
+        font-size: 20px;
+        height: 260px;
+    }
+    .ratingparent{
+        width: 184px;
+        height: 72px;
+        bottom: 56px;
+        right: 32px;
+    }
+    .rating{
+        width: 174px;
+        height: 62px;
+    }
+    .parent2 {
+        top: 110px;
+        left: 44%;
+    }
+    .stars {
+        width: 112px;
+        height: 20px;
+    }
+    .button {
+        width: 100%;
+        height: 54px;
+        font-size: 22px;
+        margin-top: 12px;
+    }
+    .blackbutton{
+        width: 78%;
+        font-size: 14px;
+    }
+    .dateandtime {
+        width: 86%;
+        height: 76px;
+        margin-left: 0px;
+    }
+    .quote{
+        margin-top: 20px;
+        display: block;
+        height: 830px;
+    }
+    .quoteleftside{
+        margin-left: 10px;
+    }
+    .quoteleftside {
+        width: 90%;
+        height: 370px;
+    }
+    .qouterightside{
+        width: 96%;
+        height: 370px;
+    }
+    .offersection{
+        height: 1070px;
+        padding-top: 4px;
+    }
+    .offersection a{
+        width: 100%;
+    }
+    .offermaintext{
+        width: 300px;
+        font-size: 26px;
+        height: 100px;
+    }
+    .offercontainer{
+        width: 80%;
+        height: 900px;
+        margin: 2px auto;
+    }
+    .boxforofficecontainer{
+        width: 100%;
+        height: 110px;
+    }
+    .officeiconcontent{
+        top: 70px;
+        left: 26%;
+    }
+    .topicmaintext{
+        font-size: 26px;
+    }
+    .experiencetopic{
+        height: 106px;
+    }
+    .experiencetopicdiv{
+        width: 92%;
+        height: 100px;
+    }
+    .experiencebox{
+        height: 60px;
+    }
+    .experiencetopicdiv{
+        height: 60px;
+    }
+    .expnumber{
+        font-size: 30px;
+    }
+    .exptext{
+        font-size: 10px;
+    }
+    .brandstopic{
+        padding-top: 10px;
+        height: 600px;
+    }
+    .brandlogodiv{
+        width: 96%;
+    }
+    .commentsliderheader{
+        width: 90%;
+        font-size: 30px;
+    }
+    .owl-theme .owl-nav{
+        top: 350px;
+    }
+    footer{
+        display: block;
+        height: 400px;
+    }
+    .footerleft{
+        width: 96%;
+        height: 150px;
+        margin: 0px auto;
+    }
+    .social{
+        width: 90%;
+        margin-top: 16px;
+    }
+    .nav-p2footer{
+        font-size: 18px;
+        margin: 2px auto;
+    }
+    .navbarfooter{
+        height: 160px;
+        margin-left: 0px;
+        display: block;
+    }
+    footer ul{
+        display: block;
+        width: 60%;
+    }
+    footer ul a{
+        font-size: 20px;
+        padding: 6px;
+        border: none;
+    }
+    footer .lastp::after{
+        margin-left: 0;
+    }
+    .sendmessagebutton{
+        position: fixed;
+        left: 290px;
+        bottom: 100px;
+    }
+    .messagebox{
+        left: 50px;
+    }
+    .servicesfirsttopic{
+        display: block;
+        height: 450px;
+    }
+    .aboutusfirsttopicphoto{
+        width: 100%;
+        height: 0%;
+        overflow: hidden;
+    }
+    .ourservices{
+        width: 100%;
+        height: 82%;
+    }
+    .h2black{
+        margin: 0px auto;
+        height: 64px;
+    }
+    .servicesp{
+        margin: 0px auto;
+    }
+    .buttonforphone{
+        width: 90%;
+        margin: 2px auto;
+    }
+    .aboutussecondtopic{
+        width: 100%;
+        display: block;
+        height: 1070px;
+        margin: 0 auto;
+        background-image: url(../img/car);
+
+    }
+    .aboutustopicsecond{
+        width: 100%;
+        height: 70%;
+    }
+    .aboutussteps{
+        width: 100%;
+    }
+    .aboutusphotoside{
+        width: 100%;
+        height: 30%;
+    }
+    .coloredsection{
+        display: block;
+        height: 1000px;
+    }
+    .coloreddiv{
+        width: 100%;
+        height: 33%;
+    }
+    .coloreddivtopic{
+        margin-top: 74px;
+        line-height: 1em;
+        height:100px;
+    }
+    .valuedcustomers{
+        width: 100%;
+        height: 840px;
+    }
+    .valuedcustomersheader{
+        font-size: 30px;
+        height: 100px;
+    }
+    .featuresblock{
+        width: 100%;
+        height: 76%;
+        display: block;
+    }
+    .featuresbox{
+        width: 100%;
+        height: 33%;
+    }
+    .aboutusstepsfirstheader-forfeatures{
+        height: 30px;
+    }
+    .featureicondiv{
+        margin-bottom: 6px;
+    }
+    .team{
+        width: 100%;
+        height: 2506px;
+    }
+    .teammatesbox{
+        width: 100%;
+    }
+    .h2forfirst{
+        font-size: 24px;
+        margin-bottom: 0;
+        height: 160px;
+    }
+    .openinfo{
+        width: 100%;
+    }
+    .clockicon{
+        height: 50px;
+        width: 50px;
+        margin-left: 0;
+    }
+    .info-div{
+        width: 280px;
+    }
+    article{
+        font-size: 14px;
+    }
+    .owl-theme .owl-nav {
+        margin-top: 40px;
+    }
+    h1 {
+        display: none;
+    }
+}
